@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: https://ogp.me/ns#">
+<head>
+    <meta charset="UTF-8"/>
+    <title>HGS login</title>
+    <meta name="title" content="HGS login"/>
+    <meta name="description" content="HGS login page"/>
+    <meta property="og:title" content="HGS login">
+    <meta property="og:description" content="HGS login page">
+    <meta property="og:image" content="http://localhost:8080/img/favicon.ico">
+    <meta property="og:url" content="http://localhost:8080/registration.html">
+    <link rel="icon" type="image/x-ico" href="img/favicon.ico">
+</head>
+<body>
+    <header>
+        <nav class="nav" id="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <form method="post">
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required><br>
+
+            <input type="checkbox" id="remember-me" name="remember-me" value="remember">
+            <label for="remember-me">Remember me</label><br><br>
+
+            <button type="submit">Log in</button>
+            <a href="registration.html">
+                <button type="button">Sign up</button>
+            </a>
+        </form>
+    </div>
+</body>
+
+<footer>
+    <small>&copy; 2023 Denis Obolonsky. All rights reserved.</small>
+</footer>
+</html>
